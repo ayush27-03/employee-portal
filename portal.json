@@ -1,0 +1,44 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"portal"},
+{"type":"table","name":"certifications","database":"portal","data":
+[
+
+]
+}
+,{"type":"table","name":"degree","database":"portal","data":
+[
+
+]
+}
+,{"type":"table","name":"department","database":"portal","data":
+[
+{"id":"1","name":"IT","status":"1"},
+{"id":"2","name":"Finance","status":"1"},
+{"id":"3","name":"Administration","status":"1"},
+{"id":"4","name":"HR","status":"1"},
+{"id":"5","name":"Marketing","status":"1"}
+]
+}
+,{"type":"table","name":"employee","database":"portal","data":
+[
+{"id":"1","first_name":"Varun","last_name":"Ahlawat","username":"varunahlawat2027","password":"$2y$10$MnoGJ6VolNv\/j5OvEVxJde1OfCBaNyulTELlhK0Qq3eQdVIp0d3Qi","department":"2","created_at":"2025-06-26 11:20:54","role":"5","status":"1","email":"varun2003@gmail.com","phone":null,"city":null,"zip":null,"state":null,"country":null,"pan":null,"aadhaar":null,"marital_status":null,"gender":null},
+{"id":"2","first_name":"Ranveer","last_name":"Roy","username":"ranveerroy9034","password":"$2y$10$DdF8BClL1G1HUwGf7\/dHKeg.mn8sYF.8ZEXkpADDCqmSlahcL\/Jxa","department":"2","created_at":"2025-06-26 11:28:11","role":"4","status":"1","email":"roy99@gmail.com","phone":"9262347891","city":"Lucknow","zip":"226017","state":"Uttar Pradesh","country":"India","pan":"ADFKL78","aadhaar":"","marital_status":"single","gender":"male"},
+{"id":"3","first_name":"abc","last_name":"xyz","username":"abcxyz7898","password":"$2y$10$dvahJcyUzO.UeFr735\/pJu8y0BQVLfefkvs012kZgbEGph43AnmAu","department":"3","created_at":"2025-07-01 15:18:59","role":"1","status":"1","email":null,"phone":null,"city":null,"zip":null,"state":null,"country":null,"pan":null,"aadhaar":null,"marital_status":null,"gender":null}
+]
+}
+,{"type":"table","name":"roles","database":"portal","data":
+[
+{"id":"1","name":"Admin","status":"1"},
+{"id":"2","name":"HR Manager","status":"1"},
+{"id":"3","name":"Team Lead","status":"1"},
+{"id":"4","name":"Tester","status":"1"},
+{"id":"5","name":"Developer","status":"1"}
+]
+}
+,{"type":"table","name":"skills","database":"portal","data":
+[
+
+]
+}
+]
